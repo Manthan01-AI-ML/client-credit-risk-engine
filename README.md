@@ -1,5 +1,6 @@
 # 📊 Payment Default / Credit Risk Prediction  
 *Aksum.co.in — End-to-End Machine Learning Project*
+We are already using this internally at Aksum.co.in with our trading team to evaluate client payment risks. While it’s not yet deployed live in production, the workflow mirrors our real business process.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)  
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)  
@@ -61,4 +62,5 @@ credit-risk/
 │ └── modeling/ <- Model training scripts
 ├── requirements.txt <- Python dependencies
 └── README.md <- Project documentation
+
 
