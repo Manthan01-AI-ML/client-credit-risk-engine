@@ -1,5 +1,3 @@
-Markdown
-
 # 🏦 Hybrid Credit Risk Intelligence Engine
 
 **An AI-powered B2B credit assessment system designed for Supply Chain & Procurement Finance.**
