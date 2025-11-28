@@ -1,75 +1,68 @@
-# ----------------------------
-# Python / Environment
-# ----------------------------
+# byte compiled files
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.so
-*.dll
-*.dylib
-*.egg-info/
-.eggs/
-*.egg
-MANIFEST
+*$py.class
+*.pyc
 
-# Virtual environments
-.env
-.venv
-env/
+# virtual environment
 venv/
+env/
 ENV/
-*.DS_Store
+.venv/
 
-# IDE / Editor
-.vscode/
+# environment variables
+.env
+.env.local
+.env.production
+
+# ide files
 .idea/
-*.iml
+.vscode/
+*.swp
+*.swo
+*~
 
-# ----------------------------
-# Jupyter / IPython
-# ----------------------------
-.ipynb_checkpoints/
-*.ipynb_convert
-profile_default/
-ipython_config.py
+# os files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# ----------------------------
-# Logs / Caches
-# ----------------------------
+# log files
 *.log
 logs/
-*.out
-*.err
+
+# cache files
+llm_cache.json
+*.cache
 .cache/
-coverage/
+
+# model files (large files)
+# uncomment below if you dont want to push models
+# saved_models/*.pkl
+# vector_data/*.bin
+# vector_data/*.pkl
+
+# data files (optional - uncomment if data is sensitive)
+# data/*.csv
+
+# jupyter notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# test files
+test_*.py
+
+# build files
+build/
+dist/
+*.egg-info/
+
+# coverage reports
 htmlcov/
-.pytest_cache/
-.tox/
+.coverage
+coverage.xml
 
-# ----------------------------
-# Data (keep repo light)
-# ----------------------------
-data/raw/*
-data/interim/*
-data/processed/*
-!data/.gitkeep   # allow empty dirs with placeholder
-
-# ----------------------------
-# Models
-# ----------------------------
-models/*
-!models/.gitkeep
-
-# ----------------------------
-# Reports / Figures
-# ----------------------------
-reports/figures/*
-reports/business_readout/*
-!reports/.gitkeep
-
-# ----------------------------
-# Streamlit / App
-# ----------------------------
-.streamlit/secrets.toml   # secrets (DB keys, API tokens)
-assets/temp/*
+# temp files
+tmp/
+temp/
+*.tmp

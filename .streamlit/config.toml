@@ -1,8 +1,0 @@
-# .streamlit/config.toml
-[theme]
-base="light"
-primaryColor="#0B5ED7"         # Aksum blue (sleek, corporate)
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F5F7FB"
-textColor="#0B132A"
-font="sans serif"
