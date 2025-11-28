@@ -1,40 +1,60 @@
-🏦 Credit Risk Intelligence Engine
-An AI-powered B2B credit assessment system designed for Supply Chain & Procurement Finance.
+Markdown
 
-PythonXGBoostFastAPIStreamlitStatus
+# 🏦 Hybrid Credit Risk Intelligence Engine
 
-⚠️ Important Note on Data Confidentiality
-This repository does NOT contain real customer data.
+**An AI-powered B2B credit assessment system designed for Supply Chain & Procurement Finance.**
 
-Due to strict Non-Disclosure Agreements (NDAs) and financial data privacy standards, all data used in this demonstration is 100% synthetic and algorithmically generated.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![XGBoost](https://img.shields.io/badge/XGBoost-Model-green)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-teal)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![Status](https://img.shields.io/badge/Status-Live-orange)
 
-However, the data schema, feature engineering logic, and risk assessment architecture accurately depict the production-grade methodology required for assessing B2B credit risk. This project serves as a demonstration of the underlying engine logic without compromising sensitive financial information.
+---
 
-🎯 Project Overview
-In the B2B supply chain sector (aligned with companies like Aksum), assessing the creditworthiness of SMEs and vendors is critical. Traditional scoring models are often black boxes.
+## ⚠️ Important Note on Data Confidentiality
 
-This project builds a Hybrid Risk Engine that combines:
+**This repository does NOT contain real customer data.**
 
-Quantitative ML: XGBoost for statistical default prediction.
-Qualitative Reasoning: LLM (GenAI) for explaining decisions in plain English.
-Historical Context: Vector Search to find similar past cases.
-Fraud Detection: Anomaly detection for suspicious patterns.
-🛠️ Tech Stack
-Component	Technology	Role
-Core ML	XGBoost	Calculating Default Probability (PD)
-Explainability	SHAP (Shapley Values)	Explaining why a score is high/low
-Fraud	Isolation Forest	Detecting anomalies in transaction patterns
-Vector DB	FAISS	Retrieving similar historical customer profiles
-Reasoning	Google Gemini API	Generating human-readable risk memos
-Backend	FastAPI	Serving real-time credit decisions
-Frontend	Streamlit	Interactive dashboard for credit analysts
-📊 Key Features
-Strict vs. Flexible Modes: A/B testing capability for risk thresholds (Conservative vs. Growth focus).
-360° Risk View: Analyzes Payment Delays, Credit Utilization, Dispute Rates, and Order Variance.
-Universal Assessment: Capable of scoring new customers with zero history by using industry benchmarks.
-Automated Memos: Generates email-ready approval/rejection drafts using GenAI.
-🚀 How to Run
-1. Clone the Repository
+Due to strict Non-Disclosure Agreements (NDAs) and financial data privacy standards, all data used in this demonstration is **100% synthetic and algorithmically generated**. 
+
+However, the data schema, feature engineering logic, and risk assessment architecture accurately depict the **production-grade methodology** required for assessing B2B credit risk. This project serves as a demonstration of the underlying engine logic without compromising sensitive financial information.
+
+---
+
+## 🎯 Project Overview
+
+In the B2B supply chain sector (aligned with companies like **Aksum**), assessing the creditworthiness of SMEs and vendors is critical. Traditional scoring models are often black boxes.
+
+This project builds a **Hybrid Risk Engine** that combines:
+1.  **Quantitative ML:** XGBoost for statistical default prediction.
+2.  **Qualitative Reasoning:** LLM (GenAI) for explaining decisions in plain English.
+3.  **Historical Context:** Vector Search to find similar past cases.
+4.  **Fraud Detection:** Anomaly detection for suspicious patterns.
+
+## 🛠️ Tech Stack
+
+| Component | Technology | Role |
+|-----------|------------|------|
+| **Core ML** | XGBoost | Calculating Default Probability (PD) |
+| **Explainability** | SHAP (Shapley Values) | Explaining *why* a score is high/low |
+| **Fraud** | Isolation Forest | Detecting anomalies in transaction patterns |
+| **Vector DB** | FAISS | Retrieving similar historical customer profiles |
+| **Reasoning** | Google Gemini API | Generating human-readable risk memos |
+| **Backend** | FastAPI | Serving real-time credit decisions |
+| **Frontend** | Streamlit | Interactive dashboard for credit analysts |
+
+## 📊 Key Features
+
+*   **Strict vs. Flexible Modes:** A/B testing capability for risk thresholds (Conservative vs. Growth focus).
+*   **360° Risk View:** Analyzes Payment Delays, Credit Utilization, Dispute Rates, and Order Variance.
+*   **Universal Assessment:** Capable of scoring *new* customers with zero history by using industry benchmarks.
+*   **Automated Memos:** Generates email-ready approval/rejection drafts using GenAI.
+
+## 🚀 How to Run
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/YOUR_USERNAME/aksum-credit-risk-engine.git
 cd aksum-credit-risk-engine
 2. Install Dependencies
@@ -75,7 +95,7 @@ Payment Behavior: Average delay, max delay, late payment frequency.
 Operational: Order consistency, lead time variance.
 Financial: Credit utilization, dispute rates.
 👨‍💻 Author
-[Your Name]
+Manthan Teotia
 Aspiring Data Scientist / ML Engineer
 Focus: Fintech, Risk Analytics, and B2B Supply Chain
 
