@@ -94,7 +94,7 @@ Operational: Order consistency, lead time variance.
 Financial: Credit utilization, dispute rates.
 👨‍💻 Author
 Manthan Teotia
-Aspiring Data Scientist / ML Engineer
+Junior ML Engineer
 Focus: Fintech, Risk Analytics, and B2B Supply Chain
 
-Disclaimer: This tool is a prototype for educational and demonstration purposes.
+
